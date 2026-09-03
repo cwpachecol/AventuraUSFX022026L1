@@ -21,6 +21,8 @@ APlataformaAerea::APlataformaAerea()
 	movimientoVelocidades = FVector(FMath::RandRange(50.0f, 50.0f), FMath::RandRange(50.0f, 200.0f), FMath::RandRange(50.0f, 200.0f));
 	movimientoDireccion = FVector(1.0f, 1.0f, 0.0f);
 	//movimientoDireccion = FVector(FMath::RandRange(-1.0f, 1.0f), FMath::RandRange(-1.0f, 1.0f), FMath::RandRange(-1.0f, 1.0f));
+
+	numeroPaso = 1;
 }
 
 void APlataformaAerea::BeginPlay()
@@ -33,16 +35,28 @@ void APlataformaAerea::Tick(float DeltaTime)
 	//Super::Tick(DeltaTime);
 
 	posicionActual = GetActorLocation();
-
+	/*
 	if ((posicionActual.X >= movimientoLimitesMaximos.X) || (posicionActual.X <= movimientoLimitesMinimos.X))
 	{
 		movimientoDireccion.X = movimientoDireccion.X * -1;
+		numeroPaso = 1;
 	}
-
+	*/
 	if ((posicionActual.Y >= movimientoLimitesMaximos.Y) || (posicionActual.Y <= movimientoLimitesMinimos.Y))
 	{
 		movimientoDireccion.Y = movimientoDireccion.Y * -1;
+		//numeroPaso = 2;
 	}
+	/*
+	if (numeroPaso == 2)
+	{
+		posicionActual.X = posicionActual.X + movimientoDireccion.X * movimientoVelocidades.X * DeltaTime;
+	}*/
+	else if (numeroPaso == 1)
+	{
+		posicionActual.Y = posicionActual.Y + movimientoDireccion.Y * movimientoVelocidades.Y * DeltaTime;
+	}
+
 
 	//posicionActual = posicionActual + movimientoDireccion * movimientoVelocidades * DeltaTime;
 
