@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "AventuraUSFX022026L1",
+			"Path": "D:\\src_SIS457\\AventuraUSFX022026L1\\Source\\AventuraUSFX022026L1.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "AventuraUSFX022026L1Editor",
+			"Path": "D:\\src_SIS457\\AventuraUSFX022026L1\\Source\\AventuraUSFX022026L1Editor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

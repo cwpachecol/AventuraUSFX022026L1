@@ -1,0 +1,3 @@
+D:\src_SIS457\AventuraUSFX022026L1\Intermediate\Build\Win64\UE4Editor\Development\AventuraUSFX022026L1\Definitions.AventuraUSFX022026L1.h
+D:\src_SIS457\AventuraUSFX022026L1\Source\AventuraUSFX022026L1\InventoryComponent.h
+D:\src_SIS457\AventuraUSFX022026L1\Intermediate\Build\Win64\UE4Editor\Inc\AventuraUSFX022026L1\InventoryComponent.generated.h

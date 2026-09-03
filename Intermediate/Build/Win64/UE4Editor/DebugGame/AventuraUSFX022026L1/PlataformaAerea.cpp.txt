@@ -1,0 +1,5 @@
+D:\src_SIS457\AventuraUSFX022026L1\Intermediate\Build\Win64\UE4Editor\DebugGame\AventuraUSFX022026L1\Definitions.AventuraUSFX022026L1.h
+D:\src_SIS457\AventuraUSFX022026L1\Source\AventuraUSFX022026L1\PlataformaAerea.h
+D:\src_SIS457\AventuraUSFX022026L1\Source\AventuraUSFX022026L1\Plataforma.h
+D:\src_SIS457\AventuraUSFX022026L1\Intermediate\Build\Win64\UE4Editor\Inc\AventuraUSFX022026L1\Plataforma.generated.h
+D:\src_SIS457\AventuraUSFX022026L1\Intermediate\Build\Win64\UE4Editor\Inc\AventuraUSFX022026L1\PlataformaAerea.generated.h

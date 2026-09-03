@@ -1,0 +1,19 @@
+D:\src_SIS457\AventuraUSFX022026L1\Intermediate\Build\Win64\UE4Editor\Development\AventuraUSFX022026L1\Definitions.AventuraUSFX022026L1.h
+D:\src_SIS457\AventuraUSFX022026L1\Source\AventuraUSFX022026L1\AventuraUSFX022026L1GameMode.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
+D:\src_SIS457\AventuraUSFX022026L1\Intermediate\Build\Win64\UE4Editor\Inc\AventuraUSFX022026L1\AventuraUSFX022026L1GameMode.generated.h
+D:\src_SIS457\AventuraUSFX022026L1\Source\AventuraUSFX022026L1\AventuraUSFX022026L1Pawn.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/CharacterMovementReplication.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CharacterMovementReplication.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
+D:\src_SIS457\AventuraUSFX022026L1\Intermediate\Build\Win64\UE4Editor\Inc\AventuraUSFX022026L1\AventuraUSFX022026L1Pawn.generated.h
+D:\src_SIS457\AventuraUSFX022026L1\Source\AventuraUSFX022026L1\Plataforma.h
+D:\src_SIS457\AventuraUSFX022026L1\Intermediate\Build\Win64\UE4Editor\Inc\AventuraUSFX022026L1\Plataforma.generated.h
+D:\src_SIS457\AventuraUSFX022026L1\Source\AventuraUSFX022026L1\PlataformaAerea.h
+D:\src_SIS457\AventuraUSFX022026L1\Intermediate\Build\Win64\UE4Editor\Inc\AventuraUSFX022026L1\PlataformaAerea.generated.h

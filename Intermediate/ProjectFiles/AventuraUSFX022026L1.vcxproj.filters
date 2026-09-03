@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\AventuraUSFX022026L1.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{3C81267F-FA15-47FF-BC1E-D0F7162ECC18}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\AventuraUSFX022026L1.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\AventuraUSFX022026L1Editor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.gitattributes" />
+    <None Include="..\..\.gitignore" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{C4682367-B462-4996-B2E2-2C40FF773F7D}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\AventuraUSFX022026L1">
+      <UniqueIdentifier>{0FA3D23C-B03F-4114-876C-2F9DD39A5E78}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\AventuraUSFX022026L1\AventuraUSFX022026L1.Build.cs">
+      <Filter>Source\AventuraUSFX022026L1</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\AventuraUSFX022026L1\AventuraUSFX022026L1.cpp">
+      <Filter>Source\AventuraUSFX022026L1</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AventuraUSFX022026L1\AventuraUSFX022026L1.h">
+      <Filter>Source\AventuraUSFX022026L1</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\AventuraUSFX022026L1\AventuraUSFX022026L1GameMode.cpp">
+      <Filter>Source\AventuraUSFX022026L1</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AventuraUSFX022026L1\AventuraUSFX022026L1GameMode.h">
+      <Filter>Source\AventuraUSFX022026L1</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\AventuraUSFX022026L1\AventuraUSFX022026L1Pawn.cpp">
+      <Filter>Source\AventuraUSFX022026L1</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AventuraUSFX022026L1\AventuraUSFX022026L1Pawn.h">
+      <Filter>Source\AventuraUSFX022026L1</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\AventuraUSFX022026L1\AventuraUSFX022026L1Projectile.cpp">
+      <Filter>Source\AventuraUSFX022026L1</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AventuraUSFX022026L1\AventuraUSFX022026L1Projectile.h">
+      <Filter>Source\AventuraUSFX022026L1</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\AventuraUSFX022026L1\InventoryActor.cpp">
+      <Filter>Source\AventuraUSFX022026L1</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AventuraUSFX022026L1\InventoryActor.h">
+      <Filter>Source\AventuraUSFX022026L1</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\AventuraUSFX022026L1\InventoryCharacter.cpp">
+      <Filter>Source\AventuraUSFX022026L1</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AventuraUSFX022026L1\InventoryCharacter.h">
+      <Filter>Source\AventuraUSFX022026L1</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\AventuraUSFX022026L1\InventoryComponent.cpp">
+      <Filter>Source\AventuraUSFX022026L1</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AventuraUSFX022026L1\InventoryComponent.h">
+      <Filter>Source\AventuraUSFX022026L1</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\AventuraUSFX022026L1\Plataforma.cpp">
+      <Filter>Source\AventuraUSFX022026L1</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AventuraUSFX022026L1\Plataforma.h">
+      <Filter>Source\AventuraUSFX022026L1</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\AventuraUSFX022026L1\PlataformaAerea.cpp">
+      <Filter>Source\AventuraUSFX022026L1</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AventuraUSFX022026L1\PlataformaAerea.h">
+      <Filter>Source\AventuraUSFX022026L1</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\AventuraUSFX022026L1\Puertas.cpp">
+      <Filter>Source\AventuraUSFX022026L1</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AventuraUSFX022026L1\Puertas.h">
+      <Filter>Source\AventuraUSFX022026L1</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
