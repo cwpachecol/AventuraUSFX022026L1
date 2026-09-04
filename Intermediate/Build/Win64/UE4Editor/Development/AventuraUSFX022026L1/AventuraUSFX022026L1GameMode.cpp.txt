@@ -17,3 +17,9 @@ D:\src_SIS457\AventuraUSFX022026L1\Source\AventuraUSFX022026L1\Plataforma.h
 D:\src_SIS457\AventuraUSFX022026L1\Intermediate\Build\Win64\UE4Editor\Inc\AventuraUSFX022026L1\Plataforma.generated.h
 D:\src_SIS457\AventuraUSFX022026L1\Source\AventuraUSFX022026L1\PlataformaAerea.h
 D:\src_SIS457\AventuraUSFX022026L1\Intermediate\Build\Win64\UE4Editor\Inc\AventuraUSFX022026L1\PlataformaAerea.generated.h
+D:\src_SIS457\AventuraUSFX022026L1\Source\AventuraUSFX022026L1\PlataformaTerrestre.h
+D:\src_SIS457\AventuraUSFX022026L1\Intermediate\Build\Win64\UE4Editor\Inc\AventuraUSFX022026L1\PlataformaTerrestre.generated.h
+D:\src_SIS457\AventuraUSFX022026L1\Source\AventuraUSFX022026L1\PlataformaSubterranea.h
+D:\src_SIS457\AventuraUSFX022026L1\Intermediate\Build\Win64\UE4Editor\Inc\AventuraUSFX022026L1\PlataformaSubterranea.generated.h
+D:\src_SIS457\AventuraUSFX022026L1\Source\AventuraUSFX022026L1\PlataformaAcuatica.h
+D:\src_SIS457\AventuraUSFX022026L1\Intermediate\Build\Win64\UE4Editor\Inc\AventuraUSFX022026L1\PlataformaAcuatica.generated.h

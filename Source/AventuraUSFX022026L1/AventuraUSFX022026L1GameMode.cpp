@@ -4,6 +4,9 @@
 #include "AventuraUSFX022026L1Pawn.h"
 #include "Plataforma.h"
 #include "PlataformaAerea.h"
+#include "PlataformaTerrestre.h"
+#include "PlataformaSubterranea.h"
+#include "PlataformaAcuatica.h"
 
 AAventuraUSFX022026L1GameMode::AAventuraUSFX022026L1GameMode()
 {
@@ -22,9 +25,51 @@ void AAventuraUSFX022026L1GameMode::BeginPlay()
 		return;
 	}
 
-	FRotator Rotacion = FRotator(0.0f, 0.0f, 0.0f);
-	FVector SpawnLocation = FVector(-1100.0f, 1100.0f, 600.0f);
+	FRotator Rotacion = FRotator::ZeroRotator;
+	FVector SpawnLocation = FVector::ZeroVector;
+	
 	APlataforma* plataformaActual;
+
+	//ETipoPlataforma tipoPlataformaActual;
+	int tipoPlataformaRandom;
+
+	for (int i = 0; i < 50; i++) {
+		
+		SpawnLocation = FVector(FMath::RandRange(-1500.0f, 1500.0f), FMath::RandRange(-1500.0f, 1500.0f), FMath::RandRange(50.0f, 1000.0f));
+
+		//plataformaActual->movimientoDireccion = FVector(1.0f, 0.0f, 0.0f);
+		
+		
+		tipoPlataformaRandom = FMath::RandRange(0, 3);
+
+		switch (tipoPlataformaRandom) {
+			case 0:
+				plataformaActual = World->SpawnActor<APlataformaAerea>(SpawnLocation, Rotacion);
+
+				//tipoPlataformaActual = ETipoPlataforma::PLATAFORMA_AEREA;
+				break;
+			case 1:
+				plataformaActual = World->SpawnActor<APlataformaTerrestre>(SpawnLocation, Rotacion);
+				//tipoPlataformaActual = ETipoPlataforma::PLATAFORMA_TERRESTRE;
+				break;
+			case 2:
+				plataformaActual = World->SpawnActor<APlataformaSubterranea>(SpawnLocation, Rotacion);
+				//tipoPlataformaActual = ETipoPlataforma::PLATAFORMA_SUBTERRANEA;
+				break;
+			case 3:
+				plataformaActual = World->SpawnActor<APlataformaAcuatica>(SpawnLocation, Rotacion);
+				//tipoPlataformaActual = ETipoPlataforma::PLATAFORMA_ACUATICA;
+				break;
+			default:
+				//tipoPlataformaActual = ETipoPlataforma::PLATAFORMA_TERRESTRE;
+				break;
+			}
+		
+		aPlataformas.Add(plataformaActual);
+
+	}
+
+	/*
 
 	plataformaActual = World->SpawnActor<APlataformaAerea>(SpawnLocation, Rotacion);
 	//plataformaActual->movimientoDireccion = FVector(1.0f, 1.0f, 0.0f);
@@ -44,7 +89,7 @@ void AAventuraUSFX022026L1GameMode::BeginPlay()
 		plataformaActual->movimientoDireccion = FVector(0.0f, 1.0f, 0.0f);
 		aPlataformas.Add(plataformaActual);
 	}
-	
+	*/
 	GetWorldTimerManager().SetTimer(TimerEliminarPlataforma, this, &AAventuraUSFX022026L1GameMode::EliminarPlataforma, 15.0f, true, 5.0f);
 
 }

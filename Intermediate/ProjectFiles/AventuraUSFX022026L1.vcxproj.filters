@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\AventuraUSFX022026L1.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{3C81267F-FA15-47FF-BC1E-D0F7162ECC18}</UniqueIdentifier>
+      <UniqueIdentifier>{0D55528B-2D54-4FB4-8EEA-B0CB5833319B}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\AventuraUSFX022026L1.Target.cs">
       <Filter>Source</Filter>
@@ -14,7 +14,7 @@
     <None Include="..\..\.gitattributes" />
     <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{C4682367-B462-4996-B2E2-2C40FF773F7D}</UniqueIdentifier>
+      <UniqueIdentifier>{4E5EE203-2B46-4B70-8D36-F3EB5813AA95}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -32,7 +32,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\AventuraUSFX022026L1">
-      <UniqueIdentifier>{0FA3D23C-B03F-4114-876C-2F9DD39A5E78}</UniqueIdentifier>
+      <UniqueIdentifier>{42BBD599-54D1-4C26-8F3B-665434EE02BC}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\AventuraUSFX022026L1\AventuraUSFX022026L1.Build.cs">
       <Filter>Source\AventuraUSFX022026L1</Filter>
@@ -85,10 +85,28 @@
     <ClInclude Include="..\..\Source\AventuraUSFX022026L1\Plataforma.h">
       <Filter>Source\AventuraUSFX022026L1</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\AventuraUSFX022026L1\PlataformaAcuatica.cpp">
+      <Filter>Source\AventuraUSFX022026L1</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AventuraUSFX022026L1\PlataformaAcuatica.h">
+      <Filter>Source\AventuraUSFX022026L1</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\AventuraUSFX022026L1\PlataformaAerea.cpp">
       <Filter>Source\AventuraUSFX022026L1</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\AventuraUSFX022026L1\PlataformaAerea.h">
+      <Filter>Source\AventuraUSFX022026L1</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\AventuraUSFX022026L1\PlataformaSubterranea.cpp">
+      <Filter>Source\AventuraUSFX022026L1</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AventuraUSFX022026L1\PlataformaSubterranea.h">
+      <Filter>Source\AventuraUSFX022026L1</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\AventuraUSFX022026L1\PlataformaTerrestre.cpp">
+      <Filter>Source\AventuraUSFX022026L1</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AventuraUSFX022026L1\PlataformaTerrestre.h">
       <Filter>Source\AventuraUSFX022026L1</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\AventuraUSFX022026L1\Puertas.cpp">

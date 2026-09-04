@@ -15,6 +15,8 @@ APlataformaAerea::APlataformaAerea()
 	// Create mesh component for the projectile sphere
 	mallaPlataforma->SetStaticMesh(PlataformaMeshAsset.Object);
 
+	tipoPlataforma = ETipoPlataforma::PLATAFORMA_AEREA;
+
 	movimientoEjes = FVector(1.0f, 1.0f, 0.0f);
 	movimientoLimitesMaximos = FVector(FMath::RandRange(200.0f, 200.0f), FMath::RandRange(200.0f, 800.0f), FMath::RandRange(200.0f, 800.0f));
 	movimientoLimitesMinimos = FVector(FMath::RandRange(-200.0f, -200.0f), FMath::RandRange(-800.0f, -200.0f), FMath::RandRange(-800.0f, -200.0f));
@@ -52,7 +54,7 @@ void APlataformaAerea::Tick(float DeltaTime)
 	{
 		posicionActual.X = posicionActual.X + movimientoDireccion.X * movimientoVelocidades.X * DeltaTime;
 	}*/
-	else if (numeroPaso == 1)
+	if (numeroPaso == 1)
 	{
 		posicionActual.Y = posicionActual.Y + movimientoDireccion.Y * movimientoVelocidades.Y * DeltaTime;
 	}

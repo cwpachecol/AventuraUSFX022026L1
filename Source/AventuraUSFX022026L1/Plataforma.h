@@ -8,6 +8,15 @@
 
 class UStaticMeshComponent;
 
+enum class ETipoPlataforma
+{
+	PLATAFORMA_AEREA,
+	PLATAFORMA_TERRESTRE,
+	PLATAFORMA_SUBTERRANEA,
+	PLATAFORMA_ACUATICA
+};
+
+
 UCLASS()
 class AVENTURAUSFX022026L1_API APlataforma : public AActor
 {
@@ -16,6 +25,8 @@ class AVENTURAUSFX022026L1_API APlataforma : public AActor
 public:	
 	// Sets default values for this actor's properties
 	APlataforma();
+
+	ETipoPlataforma tipoPlataforma;
 
 	UStaticMeshComponent* mallaPlataforma;
 
