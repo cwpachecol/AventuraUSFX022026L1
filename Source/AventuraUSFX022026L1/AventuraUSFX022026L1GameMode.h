@@ -29,6 +29,8 @@ public:
 	FTimerHandle TimerEliminarPlataforma;
 
 	void EliminarPlataforma();
+
+	int tipoPlataformaActual;
 };
 
 

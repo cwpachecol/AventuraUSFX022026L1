@@ -12,6 +12,8 @@ AAventuraUSFX022026L1GameMode::AAventuraUSFX022026L1GameMode()
 {
 	// set default pawn class to our character class
 	DefaultPawnClass = AAventuraUSFX022026L1Pawn::StaticClass();
+
+	tipoPlataformaActual = 0;
 }
 
 void AAventuraUSFX022026L1GameMode::BeginPlay()
@@ -90,7 +92,7 @@ void AAventuraUSFX022026L1GameMode::BeginPlay()
 		aPlataformas.Add(plataformaActual);
 	}
 	*/
-	GetWorldTimerManager().SetTimer(TimerEliminarPlataforma, this, &AAventuraUSFX022026L1GameMode::EliminarPlataforma, 15.0f, true, 5.0f);
+	GetWorldTimerManager().SetTimer(TimerEliminarPlataforma, this, &AAventuraUSFX022026L1GameMode::EliminarPlataforma, 1.0f, true);
 
 }
 
@@ -101,10 +103,55 @@ void AAventuraUSFX022026L1GameMode::Tick(float DeltaTime)
 
 void AAventuraUSFX022026L1GameMode::EliminarPlataforma()
 {
-	int32 Indice = FMath::RandRange(0, aPlataformas.Num());
+	//switch (tipoPlataformaActual){
+	//	case 0:
+	//		tipoPlataformaActual = 1;
+	//		break;
+	//	case 1:
+	//		tipoPlataformaActual = 2;
+	//		break;
+	//	case 2:
+	//		tipoPlataformaActual = 3;
+	//		break;
+	//	case 3:
+	//		tipoPlataformaActual = 0;
+	//		break;
+	//	default:
+	//		//int32 Indice = FMath::RandRange(0, aPlataformas.Num());
+	//		break;
+	//}
 
+	for (int32 i = 0; i < aPlataformas.Num(); i++)
+	{
+		if (aPlataformas[i] != nullptr)
+		{
+			// Verifica si la plataforma es de tipo ATerrestre
+			APlataforma * plataformaActual = aPlataformas[i];
 
-	if (aPlataformas.IsValidIndex(Indice))
+			if (plataformaActual != nullptr)
+			{
+				if (plataformaActual->tipoPlataforma == static_cast<ETipoPlataforma>(tipoPlataformaActual))
+				{
+					// Eliminamos el objeto del escenario
+					plataformaActual->Destroy();
+
+					// Lo eliminamos también del TArray
+					aPlataformas.RemoveAt(i);
+
+					// Salimos del bucle después de eliminar el primero
+					break;
+				}
+			}
+		}
+	}
+	if (tipoPlataformaActual >= 3)
+	{
+		tipoPlataformaActual = 0;
+	}
+	else
+		tipoPlataformaActual++;
+
+	/*if (aPlataformas.IsValidIndex(Indice))
 	{
 		if (IsValid(aPlataformas[Indice]))
 		{
@@ -113,7 +160,7 @@ void AAventuraUSFX022026L1GameMode::EliminarPlataforma()
 			aPlataformas[Indice] = nullptr;
 			aPlataformas.RemoveAt(Indice);
 		}
-	}
+	}*/
 
 }
 
