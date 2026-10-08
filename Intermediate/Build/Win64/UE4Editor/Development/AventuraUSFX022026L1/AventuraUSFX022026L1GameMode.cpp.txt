@@ -23,3 +23,7 @@ D:\src_SIS457\AventuraUSFX022026L1\Source\AventuraUSFX022026L1\PlataformaSubterr
 D:\src_SIS457\AventuraUSFX022026L1\Intermediate\Build\Win64\UE4Editor\Inc\AventuraUSFX022026L1\PlataformaSubterranea.generated.h
 D:\src_SIS457\AventuraUSFX022026L1\Source\AventuraUSFX022026L1\PlataformaAcuatica.h
 D:\src_SIS457\AventuraUSFX022026L1\Intermediate\Build\Win64\UE4Editor\Inc\AventuraUSFX022026L1\PlataformaAcuatica.generated.h
+D:\src_SIS457\AventuraUSFX022026L1\Source\AventuraUSFX022026L1\Inventory.h
+D:\src_SIS457\AventuraUSFX022026L1\Intermediate\Build\Win64\UE4Editor\Inc\AventuraUSFX022026L1\Inventory.generated.h
+D:\src_SIS457\AventuraUSFX022026L1\Source\AventuraUSFX022026L1\FabricaPlataformas.h
+D:\src_SIS457\AventuraUSFX022026L1\Intermediate\Build\Win64\UE4Editor\Inc\AventuraUSFX022026L1\FabricaPlataformas.generated.h

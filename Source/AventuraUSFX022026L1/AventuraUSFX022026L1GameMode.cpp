@@ -7,6 +7,8 @@
 #include "PlataformaTerrestre.h"
 #include "PlataformaSubterranea.h"
 #include "PlataformaAcuatica.h"
+#include "Inventory.h"
+#include "FabricaPlataformas.h"
 
 AAventuraUSFX022026L1GameMode::AAventuraUSFX022026L1GameMode()
 {
@@ -27,11 +29,39 @@ void AAventuraUSFX022026L1GameMode::BeginPlay()
 		return;
 	}
 
+	//Implementacion de utilizacion de singleton para el inventario
+	//Create 4 Inventory
+	/*
+	for (int i = 0; i <= 4; i++)
+	{
+		AInventory* SpawnedInventory = GetWorld()->SpawnActor<AInventory>(AInventory::StaticClass());
+	
+		if (SpawnedInventory)
+		{
+			//If the Spawn succeeds, set the Spawned inventory to the local one
+			//and log the success string
+			Inventory = SpawnedInventory;
+			GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Yellow, FString::Printf(TEXT("%s has been created"), *Inventory->GetName()));
+		}
+	}
+	*/
+
+	AFabricaPlataformas* FabricaPlataformas = World->SpawnActor<AFabricaPlataformas>(AFabricaPlataformas::StaticClass());
+		
+
 	FRotator Rotacion = FRotator::ZeroRotator;
 	FVector SpawnLocation = FVector::ZeroVector;
 	
-	APlataforma* plataformaActual;
 
+	Rotacion = FRotator(0.0f, 0.0f, 0.0f);
+	SpawnLocation = FVector(-950.0f, 50.0f, 200.0f);
+
+	for (int i = 0; i < 10; i++) {
+		SpawnLocation = FVector(FMath::RandRange(-1500.0f, 1500.0f), FMath::RandRange(-1500.0f, 1500.0f), FMath::RandRange(50.0f, 1000.0f));
+		FabricaPlataformas->CrearPlataforma("Aerea", SpawnLocation, Rotacion);
+	}
+
+	/*
 	//ETipoPlataforma tipoPlataformaActual;
 	int tipoPlataformaRandom;
 
@@ -70,7 +100,7 @@ void AAventuraUSFX022026L1GameMode::BeginPlay()
 		aPlataformas.Add(plataformaActual);
 
 	}
-
+	*/
 	/*
 
 	plataformaActual = World->SpawnActor<APlataformaAerea>(SpawnLocation, Rotacion);

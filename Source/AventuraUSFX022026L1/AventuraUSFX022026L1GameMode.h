@@ -7,6 +7,7 @@
 #include "AventuraUSFX022026L1GameMode.generated.h"
 
 class APlataforma;
+class AInventory;
 
 UCLASS(MinimalAPI)
 class AAventuraUSFX022026L1GameMode : public AGameModeBase
@@ -19,6 +20,9 @@ public:
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
+
+private:
+	AInventory* Inventory;
 
 public:
 	// Called every frame
