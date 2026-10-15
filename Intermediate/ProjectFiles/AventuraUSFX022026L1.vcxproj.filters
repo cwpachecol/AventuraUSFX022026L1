@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\AventuraUSFX022026L1.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{4CD15C55-01D2-4E41-BD43-2BB31A6BFFE1}</UniqueIdentifier>
+      <UniqueIdentifier>{BCBE2C36-45AD-4BAE-9C37-0E37F609C2DA}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\AventuraUSFX022026L1.Target.cs">
       <Filter>Source</Filter>
@@ -14,7 +14,7 @@
     <None Include="..\..\.gitattributes" />
     <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{0E49ACFF-2D98-48B9-849B-1A66DF3997D3}</UniqueIdentifier>
+      <UniqueIdentifier>{03994DC5-3539-4E04-9627-641AEB7B20DB}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -32,7 +32,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\AventuraUSFX022026L1">
-      <UniqueIdentifier>{BE4F2DF5-0BA6-42EC-BEBF-A0BCF39FB466}</UniqueIdentifier>
+      <UniqueIdentifier>{F66EFF5E-0C37-41C7-B411-9B9B97B6C3DF}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\AventuraUSFX022026L1\AventuraUSFX022026L1.Build.cs">
       <Filter>Source\AventuraUSFX022026L1</Filter>
@@ -59,6 +59,66 @@
       <Filter>Source\AventuraUSFX022026L1</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\AventuraUSFX022026L1\AventuraUSFX022026L1Projectile.h">
+      <Filter>Source\AventuraUSFX022026L1</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\AventuraUSFX022026L1\Enemigo.cpp">
+      <Filter>Source\AventuraUSFX022026L1</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AventuraUSFX022026L1\Enemigo.h">
+      <Filter>Source\AventuraUSFX022026L1</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\AventuraUSFX022026L1\EnemigoAcuatico.cpp">
+      <Filter>Source\AventuraUSFX022026L1</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AventuraUSFX022026L1\EnemigoAcuatico.h">
+      <Filter>Source\AventuraUSFX022026L1</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\AventuraUSFX022026L1\EnemigoAcuaticoAnimal.cpp">
+      <Filter>Source\AventuraUSFX022026L1</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AventuraUSFX022026L1\EnemigoAcuaticoAnimal.h">
+      <Filter>Source\AventuraUSFX022026L1</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\AventuraUSFX022026L1\EnemigoAereo.cpp">
+      <Filter>Source\AventuraUSFX022026L1</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AventuraUSFX022026L1\EnemigoAereo.h">
+      <Filter>Source\AventuraUSFX022026L1</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\AventuraUSFX022026L1\EnemigoAlienigena.cpp">
+      <Filter>Source\AventuraUSFX022026L1</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AventuraUSFX022026L1\EnemigoAlienigena.h">
+      <Filter>Source\AventuraUSFX022026L1</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\AventuraUSFX022026L1\EnemigoAnimal.cpp">
+      <Filter>Source\AventuraUSFX022026L1</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AventuraUSFX022026L1\EnemigoAnimal.h">
+      <Filter>Source\AventuraUSFX022026L1</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\AventuraUSFX022026L1\EnemigoTerrestre.cpp">
+      <Filter>Source\AventuraUSFX022026L1</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AventuraUSFX022026L1\EnemigoTerrestre.h">
+      <Filter>Source\AventuraUSFX022026L1</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\AventuraUSFX022026L1\FabricaEnemigos.cpp">
+      <Filter>Source\AventuraUSFX022026L1</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AventuraUSFX022026L1\FabricaEnemigos.h">
+      <Filter>Source\AventuraUSFX022026L1</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\AventuraUSFX022026L1\FabricaEnemigosAnimales.cpp">
+      <Filter>Source\AventuraUSFX022026L1</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AventuraUSFX022026L1\FabricaEnemigosAnimales.h">
+      <Filter>Source\AventuraUSFX022026L1</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\AventuraUSFX022026L1\FabricaEnemigosTerrestres.cpp">
+      <Filter>Source\AventuraUSFX022026L1</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AventuraUSFX022026L1\FabricaEnemigosTerrestres.h">
       <Filter>Source\AventuraUSFX022026L1</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\AventuraUSFX022026L1\FabricaPlataformas.cpp">
