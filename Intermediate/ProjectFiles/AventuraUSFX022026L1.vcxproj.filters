@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\AventuraUSFX022026L1.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{BCBE2C36-45AD-4BAE-9C37-0E37F609C2DA}</UniqueIdentifier>
+      <UniqueIdentifier>{5CD5520D-9464-4AF4-8E3A-EB5F611E12BC}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\AventuraUSFX022026L1.Target.cs">
       <Filter>Source</Filter>
@@ -14,7 +14,7 @@
     <None Include="..\..\.gitattributes" />
     <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{03994DC5-3539-4E04-9627-641AEB7B20DB}</UniqueIdentifier>
+      <UniqueIdentifier>{040647F2-EA4D-4ECC-8397-A78FA3F2DDC0}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -32,7 +32,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\AventuraUSFX022026L1">
-      <UniqueIdentifier>{F66EFF5E-0C37-41C7-B411-9B9B97B6C3DF}</UniqueIdentifier>
+      <UniqueIdentifier>{2942F83D-ABF6-415F-9801-D255D2704FCD}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\AventuraUSFX022026L1\AventuraUSFX022026L1.Build.cs">
       <Filter>Source\AventuraUSFX022026L1</Filter>
@@ -59,6 +59,24 @@
       <Filter>Source\AventuraUSFX022026L1</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\AventuraUSFX022026L1\AventuraUSFX022026L1Projectile.h">
+      <Filter>Source\AventuraUSFX022026L1</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\AventuraUSFX022026L1\BuilderEPAleatoria.cpp">
+      <Filter>Source\AventuraUSFX022026L1</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AventuraUSFX022026L1\BuilderEPAleatoria.h">
+      <Filter>Source\AventuraUSFX022026L1</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\AventuraUSFX022026L1\BuilderEstructuraPlataforma.cpp">
+      <Filter>Source\AventuraUSFX022026L1</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AventuraUSFX022026L1\BuilderEstructuraPlataforma.h">
+      <Filter>Source\AventuraUSFX022026L1</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\AventuraUSFX022026L1\DirectorEP.cpp">
+      <Filter>Source\AventuraUSFX022026L1</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AventuraUSFX022026L1\DirectorEP.h">
       <Filter>Source\AventuraUSFX022026L1</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\AventuraUSFX022026L1\Enemigo.cpp">
@@ -101,6 +119,12 @@
       <Filter>Source\AventuraUSFX022026L1</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\AventuraUSFX022026L1\EnemigoTerrestre.h">
+      <Filter>Source\AventuraUSFX022026L1</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\AventuraUSFX022026L1\EsrtucturaPlataformas.cpp">
+      <Filter>Source\AventuraUSFX022026L1</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AventuraUSFX022026L1\EsrtucturaPlataformas.h">
       <Filter>Source\AventuraUSFX022026L1</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\AventuraUSFX022026L1\FabricaEnemigos.cpp">

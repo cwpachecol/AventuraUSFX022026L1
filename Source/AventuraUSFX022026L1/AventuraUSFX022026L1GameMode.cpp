@@ -46,7 +46,7 @@ void AAventuraUSFX022026L1GameMode::BeginPlay()
 	}
 	*/
 
-	AFabricaPlataformas* FabricaPlataformas = World->SpawnActor<AFabricaPlataformas>(AFabricaPlataformas::StaticClass());
+	/*AFabricaPlataformas* FabricaPlataformas = World->SpawnActor<AFabricaPlataformas>(AFabricaPlataformas::StaticClass());
 		
 
 	FRotator Rotacion = FRotator::ZeroRotator;
@@ -59,7 +59,7 @@ void AAventuraUSFX022026L1GameMode::BeginPlay()
 	for (int i = 0; i < 10; i++) {
 		SpawnLocation = FVector(FMath::RandRange(-1500.0f, 1500.0f), FMath::RandRange(-1500.0f, 1500.0f), FMath::RandRange(50.0f, 1000.0f));
 		FabricaPlataformas->CrearPlataforma("Aerea", SpawnLocation, Rotacion);
-	}
+	}*/
 
 	/*
 	//ETipoPlataforma tipoPlataformaActual;

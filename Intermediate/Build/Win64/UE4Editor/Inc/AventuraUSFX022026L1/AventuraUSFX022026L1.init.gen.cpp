@@ -21,8 +21,8 @@ void EmptyLinkFunctionForGeneratedCodeAventuraUSFX022026L1_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x96423940,
-				0xDD555F78,
+				0xC16AB8F3,
+				0x42880174,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);

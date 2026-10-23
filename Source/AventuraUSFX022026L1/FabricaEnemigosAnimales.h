@@ -14,4 +14,7 @@ class AVENTURAUSFX022026L1_API AFabricaEnemigosAnimales : public AFabricaEnemigo
 {
 	GENERATED_BODY()
 	
+public:
+	AEnemigo* CrearEnemigo(FString TipoEnemigo) override;
+
 };

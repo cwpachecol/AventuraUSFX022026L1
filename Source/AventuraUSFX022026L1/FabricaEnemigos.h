@@ -6,6 +6,8 @@
 #include "GameFramework/Actor.h"
 #include "FabricaEnemigos.generated.h"
 
+class AEnemigo;
+
 UCLASS()
 class AVENTURAUSFX022026L1_API AFabricaEnemigos : public AActor
 {
@@ -22,5 +24,8 @@ protected:
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
+
+	virtual AEnemigo* CrearEnemigo(FString TipoEnemigo)
+		PURE_VIRTUAL(AEnemigo::CrearEnemigo, return nullptr;);
 
 };

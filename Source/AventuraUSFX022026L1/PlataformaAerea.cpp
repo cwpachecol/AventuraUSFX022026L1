@@ -36,6 +36,11 @@ void APlataformaAerea::Tick(float DeltaTime)
 {
 	//Super::Tick(DeltaTime);
 
+	if (!bMovimientoActivo)
+	{
+		return;
+	}
+
 	posicionActual = GetActorLocation();
 	/*
 	if ((posicionActual.X >= movimientoLimitesMaximos.X) || (posicionActual.X <= movimientoLimitesMinimos.X))

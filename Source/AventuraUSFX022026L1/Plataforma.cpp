@@ -35,6 +35,8 @@ APlataforma::APlataforma()
 	//movimientoDireccion = FVector(1.0f, 0.0f, 0.0f);
 
 	TiempoTranscurrido = 0.0f;
+
+	bMovimientoActivo = true;
 }
 
 // Called when the game starts or when spawned

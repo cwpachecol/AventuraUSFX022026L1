@@ -2,6 +2,7 @@
 
 
 #include "FabricaEnemigos.h"
+#include "Enemigo.h"
 
 // Sets default values
 AFabricaEnemigos::AFabricaEnemigos()
